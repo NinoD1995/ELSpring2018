@@ -1,4 +1,5 @@
-![alt text](https://www.newpaltz.edu/media/identity/logos/newpaltzlogo.jpg)
+<img src="https://www.newpaltz.edu/media/identity/logos/newpaltzlogo.jpg" width="500">
+
 # Spring 2018 Embedded Linux class
 This repository documents my class work and projects done for **CPS342**
 1. **Personal Information:**
@@ -7,7 +8,7 @@ This repository documents my class work and projects done for **CPS342**
    
    Major: *Computer Engineering*  
    
-   ID: *[N03097188](https://github.com/N03097188?tab=repositories)*  
+   ID: *[N03097188](https://github.com/N03097188)*  
    
    Year: *Senior*
    
