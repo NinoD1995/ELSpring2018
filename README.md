@@ -3,13 +3,13 @@
 This repository documents my class work and projects done for **CPS342**
 1. **Personal Information:**
 
-   Name: Minh Nguyen 
+   Name: *Minh Nguyen* 
    
-   Major: Computer Engineering  
+   Major: *Computer Engineering*  
    
-   ID: [N03097188](https://github.com/N03097188?tab=repositories)  
+   ID: *[N03097188](https://github.com/N03097188?tab=repositories)*  
    
-   Year: Senior
+   Year: *Senior*
    
 2. **Class Start Date:** Jan 22, 2018
 3. **Class End Date:** May 8, 2018
