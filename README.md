@@ -7,7 +7,7 @@ This repository documents my class work and projects done for **CPS342**
    
    Major: Computer Engineering  
    
-   ID: [N03097188](https://github.com/N03313446)  
+   ID: [N03097188](https://github.com/N03097188?tab=repositories)  
    
    Year: Senior
    
