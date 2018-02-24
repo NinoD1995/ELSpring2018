@@ -1,0 +1,12 @@
+Script started on Thu 08 Feb 2018 08:55:27 AM EST
+pi@raspberrypi:~$ ls
+Desktop    Downloads  led.py  Pictures  python_games  Videos
+Documents  Embedded   Music   Public    Templates
+pi@raspberrypi:~$ cd E[KEmbedded/ELSpring2018
+pi@raspberrypi:~/Embedded/ELSpring2018$ ls
+code  doc  LICENSE  misc  README.md
+pi@raspberrypi:~/Embedded/ELSpring2018$ git pull
+Already up-to-date.
+pi@raspberrypi:~/Embedded/ELSpring2018$ exit
+
+Script done on Thu 08 Feb 2018 08:56:16 AM EST
