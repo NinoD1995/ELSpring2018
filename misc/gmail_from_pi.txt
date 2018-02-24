@@ -1,0 +1,67 @@
+The following python terminal sessions shows how to send mail through google gmail from your Pi
+I am using ipython/jupyter on the Pi
+
+
+In [1]: import smtplib
+
+In [2]: import mimetypes
+
+In [3]: import email
+
+In [4]: import email.mime.application
+
+In [5]: import sys
+
+In [7]: msg = email.mime.Multipart.MIMEMultipart()
+
+In [8]: msg['Subject'] = 'Test from Pi'
+
+In [9]: msg['From'] = 'chirakkal.easwaran@gmail.com'
+
+In [10]: msg['To'] = 'easwarac@newpaltz.edu'
+
+In [11]: body=email.mime.Text.MIMEText("This is a test -----")
+
+In [12]: msg.attach(body)
+
+In [13]: s = smtplib.SMTP('smtp.gmail.com:587')
+
+In [14]: s.starttls()
+Out[14]: (220, '2.0.0 Ready to start TLS')
+
+In [15]: s.login('chirakkal.easwaran@gmail.com','***************')
+---------------------------------------------------------------------------
+SMTPAuthenticationError                   Traceback (most recent call last)
+<ipython-input-15-bd6de3c7950a> in <module>()
+----> 1 s.login('chirakkal.easwaran@gmail.com','*****************')
+
+/usr/lib/python2.7/smtplib.pyc in login(self, user, password)
+    611             # 235 == 'Authentication successful'
+    612             # 503 == 'Error: already authenticated'
+--> 613             raise SMTPAuthenticationError(code, resp)
+    614         return (code, resp)
+    615 
+
+SMTPAuthenticationError: (534, '5.7.9 Application-specific password required. Learn more at\n5.7.9 http://support.google.com/accounts/bin/answer.py?answer=185833 q11sm1603333qad.40 - gsmtp')
+
+In [16]: s.login('chirakkal.easwaran@gmail.com','ncnt eceu brve pouw')
+Out[16]: (235, '2.7.0 Accepted')
+
+In [17]: s.sendmail('easwarac@newpaltz.edu',msg.as_string())
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-17-26afcdb0fa20> in <module>()
+----> 1 s.sendmail('easwarac@newpaltz.edu',msg.as_string())
+
+TypeError: sendmail() takes at least 4 arguments (3 given)
+
+In [18]: s.sendmail('easwarac@newpaltz.edu',['easwarac@newpaltz.edu'],msg.as_string())
+Out[18]: {}
+
+In [19]: s.quit
+Out[19]: <bound method SMTP.quit of <smtplib.SMTP instance at 0x1af4828>>
+
+In [20]: s.quit()
+Out[20]: (221, '2.0.0 closing connection q11sm1603333qad.40 - gsmtp')
+
+In [21]:
