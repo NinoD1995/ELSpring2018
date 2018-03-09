@@ -8,7 +8,7 @@
 
       <br><br><br><br><br><br><br><br>
 
-      <form action="" method="">
+      <form action="http://localhost:80" method="post">
 
 	 <label for="upperDate"> Enter Upper Date </label>
          <input type="date" name="upperDate" size="25" id="upperDate"> 				<!--Add one-line text box-->
@@ -16,11 +16,25 @@
          <br><br><br>
 
 	 <label for="lowerDate"> Enter Lower Date </label>
-         <input type="date" name="lowerDate" size="25" id="lowerDate"
+         <input type="date" name="lowerDate" size="25" id="lowerDate">
 
-         <input type="submit" value="Submit" /> 
+         <input type="submit"> 
 
-      <!form>
+      </form>
+   <p>{{ upperDate }}</p>
+   <br>
+   <p>{{ lowerDate }}</p>
+   <br>
+
+   <table>
+      <tbody>
+         {% for row in data %}
+	    <tr>
+	       <td>{{ row }}</td>
+            </tr>
+         {% endfor %}
+      </tbody>
+   </table>
    </body>
 
 </html>
