@@ -1,7 +1,11 @@
 <img src="https://www.newpaltz.edu/media/identity/logos/newpaltzlogo.jpg" width="300">
 
 # Spring 2018 Embedded Linux class
-Documentation for all projects Embedded Linux(**CPS342**) is provided here
+
+
+Initial Progress Report of the project
+
+
 1. **Personal Information:**
 
    Name: *Minh Nguyen* 
