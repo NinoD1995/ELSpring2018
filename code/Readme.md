@@ -35,7 +35,7 @@ cd ~
 git clone https://github.com/adafruit/Adafruit_Python_PCA9685.git
 cd Adafruit_Python_PCA9685
 sudo python setup.py install 
-# if you have python3 installed:
+\# if you have python3 installed:
 sudo python3 setup.py install 
 
 To see if the everything was installed and configure correctly we can run the command,
@@ -44,4 +44,4 @@ cd examples
 sudo python simpletest.py
 
 If all is good, the example source code will oscillate a servo back and forth when connected to channel 0 in the servo driver.
-From here, we build on the this source code driver in the github repository _______________
+From here, we build on the this source code driver in the github repository https://github.com/N03021441/ELSpring
