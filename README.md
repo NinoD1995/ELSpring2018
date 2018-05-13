@@ -15,10 +15,11 @@ This repository documents my class work and projects done for **CPS342**
 2. **Class Start Date:** Jan 22, 2018
 3. **Class End Date:** May 8, 2018
 
-#Project Participation
-Anthony DiNardi: 60%
-Minh Nguyen: 30%
-Dean: 0%
+# Project Participation
+
+*Anthony DiNardi: 60%*
+*Minh Nguyen: 30%*
+*Dean: 0%*
 
 This repository focuses on the servo side of the the IOT security camera using a raspberry pi. This includes setting up the hardware as well as the software side of the project reguarding the servos. 
 
