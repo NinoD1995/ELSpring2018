@@ -17,9 +17,9 @@ This repository documents my class work and projects done for **CPS342**
 
 **Project Participation**
 
-*Anthony DiNardi: 60%*
+*Anthony DiNardi: 50%*
 
-*Minh Nguyen: 30%*
+*Minh Nguyen: 50%*
 
 *Dean: 0%*
 
